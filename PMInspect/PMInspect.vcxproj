@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D5AF1E5-A609-4B52-A773-FADEE344A623}</ProjectGuid>
+    <RootNamespace>PMInspect</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\EzSoftware UC\AXL%28Library%29\C, C++;C:\Program Files\MVTec\HALCON-12.0\include;C:\Program Files\MVTec\HALCON-12.0\include\cpp;C:\Program Files\MVTec\HALCON-13.0\include;C:\Program Files\MVTec\HALCON-13.0\include\cpp;C:\Program Files\3D Active Button Magic\Include;C:\Program Files\Matrox Imaging\MIL\Include;$(ProjectDir)include;$(ProjectDir);$(ProjectDir)include\ATFCTRL;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\EzSoftware UC\AXL%28Library%29\Library\64Bit;C:\Program Files\Matrox Imaging\MIL\LIB;$(ProjectDir)include;C:\Program Files\3D Active Button Magic\Include;C:\Program Files\MVTec\HALCON-12.0\lib\x64-win64;C:\Program Files\MVTec\HALCON-13.0\lib\x64-win64;$(ProjectDir)include\ATFCTRL;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files\MVTec\HALCON-12.0\include;C:\Program Files\MVTec\HALCON-12.0\include\cpp;C:\Program Files\MVTec\HALCON-13.0\include;C:\Program Files\MVTec\HALCON-13.0\include\cpp;C:\Program Files\3D Active Button Magic\Include;C:\Program Files\Matrox Imaging\MIL\Include;$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Matrox Imaging\MIL\LIB;$(ProjectDir)include;C:\Program Files\3D Active Button Magic\Include;C:\Program Files\MVTec\HALCON-12.0\lib\x64-win64;C:\Program Files\MVTec\HALCON-13.0\lib\x64-win64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <DisableSpecificWarnings>4819;4244;4477;4996;</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(PYLON_DEV_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>mil.lib;halconcpp10xl.lib;_CtrlImageRect.lib;_FuncModuleBasic.lib;_FuncModuleHal.lib;AXL.lib;winmm.lib;atf_lib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_DEV_DIR)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <StackReserveSize>10485760</StackReserveSize>
+      <HeapReserveSize>10485760</HeapReserveSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="ToDo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ALIGNMANAGER.h" />
+    <ClInclude Include="DialogAlarm.h" />
+    <ClInclude Include="DialogAxisManage.h" />
+    <ClInclude Include="DialogDispAlign.h" />
+    <ClInclude Include="DialogDispMain.h" />
+    <ClInclude Include="DialogMessageBox.h" />
+    <ClInclude Include="DialogModel.h" />
+    <ClInclude Include="DialogMotion.h" />
+    <ClInclude Include="DialogNumber_Box.h" />
+    <ClInclude Include="DialogResultView.h" />
+    <ClInclude Include="DialogSystem.h" />
+    <ClInclude Include="DialogTeach.h" />
+    <ClInclude Include="DialogTeachAlign.h" />
+    <ClInclude Include="DlgResultList.h" />
+    <ClInclude Include="include\3DBtn\btnenhctrl.h" />
+    <ClInclude Include="include\3DBtn\_Font.h" />
+    <ClInclude Include="include\ATFCTRL\AtfCtrl.h" />
+    <ClInclude Include="include\ATFCTRL\atf_def.h" />
+    <ClInclude Include="include\ATFCTRL\atf_lib.h" />
+    <ClInclude Include="include\ATFCTRL\atf_lib_exp.h" />
+    <ClInclude Include="include\ATFCTRL\atf_ooa.h" />
+    <ClInclude Include="include\ATFCTRL\common_AF.h" />
+    <ClInclude Include="include\ATFCTRL\epp.h" />
+    <ClInclude Include="include\ATFCTRL\llc.h" />
+    <ClInclude Include="include\ATFCTRL\Log Subsystem\Include\LogSubsystemInterface.h" />
+    <ClInclude Include="include\ATFCTRL\logger.h" />
+    <ClInclude Include="include\ATFCTRL\tserial.h" />
+    <ClInclude Include="include\ATFCTRL\ui_cmd.h" />
+    <ClInclude Include="include\Define\define.h" />
+    <ClInclude Include="include\IMGALIGN\IMGALIGN.h" />
+    <ClInclude Include="include\MILCtrl\MILCTRL.h" />
+    <ClInclude Include="include\Motion\Axis.h" />
+    <ClInclude Include="include\Motion\Motion.h" />
+    <ClInclude Include="include\MsgBox\MsgBox.h" />
+    <ClInclude Include="include\PARAMANAGER\PARAMANAGER.h" />
+    <ClInclude Include="include\PRSPTNFINDER\PRSPTNFINDER.h" />
+    <ClInclude Include="include\PYLONCTRL\PYLONCTRL.h" />
+    <ClInclude Include="include\SerialComm\SerialPort.h" />
+    <ClInclude Include="include\Trigger\AddrDefinition.h" />
+    <ClInclude Include="include\VisionModule\VisionModule.h" />
+    <ClInclude Include="include\WNDDISPHALCON\WNDDISPHALCON.h" />
+    <ClInclude Include="include\_CtrlImageRect.h" />
+    <ClInclude Include="include\_FuncModuleBasic.h" />
+    <ClInclude Include="include\_FuncModuleBasic_.h" />
+    <ClInclude Include="include\_FuncModuleHal.h" />
+    <ClInclude Include="PMInspect.h" />
+    <ClInclude Include="PMInspectDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ALIGNMANAGER.cpp" />
+    <ClCompile Include="DialogAlarm.cpp" />
+    <ClCompile Include="DialogAxisManage.cpp" />
+    <ClCompile Include="DialogDispAlign.cpp" />
+    <ClCompile Include="DialogDispMain.cpp" />
+    <ClCompile Include="DialogMessageBox.cpp" />
+    <ClCompile Include="DialogModel.cpp" />
+    <ClCompile Include="DialogMotion.cpp" />
+    <ClCompile Include="DialogNumber_Box.cpp" />
+    <ClCompile Include="DialogResultView.cpp" />
+    <ClCompile Include="DialogSystem.cpp" />
+    <ClCompile Include="DialogTeach.cpp" />
+    <ClCompile Include="DialogTeachAlign.cpp" />
+    <ClCompile Include="DlgResultList.cpp" />
+    <ClCompile Include="include\3DBtn\btnenhctrl.cpp" />
+    <ClCompile Include="include\ATFCTRL\AtfCtrl.cpp" />
+    <ClCompile Include="include\ATFCTRL\atf_ooa.cpp" />
+    <ClCompile Include="include\ATFCTRL\epp.cpp" />
+    <ClCompile Include="include\ATFCTRL\llc.cpp" />
+    <ClCompile Include="include\ATFCTRL\logger.cpp" />
+    <ClCompile Include="include\ATFCTRL\tserial.cpp" />
+    <ClCompile Include="include\ATFCTRL\ui_cmd.cpp" />
+    <ClCompile Include="include\Define\define.cpp" />
+    <ClCompile Include="include\IMGALIGN\IMGALIGN.cpp" />
+    <ClCompile Include="include\MILCtrl\MILCTRL.cpp" />
+    <ClCompile Include="include\Motion\Axis.cpp" />
+    <ClCompile Include="include\Motion\Motion.cpp" />
+    <ClCompile Include="include\MsgBox\MsgBox.cpp" />
+    <ClCompile Include="include\PARAMANAGER\PARAMANAGER.cpp" />
+    <ClCompile Include="include\PRSPTNFINDER\PRSPTNFINDER.cpp" />
+    <ClCompile Include="include\PYLONCTRL\PYLONCTRL.cpp" />
+    <ClCompile Include="include\SerialComm\SerialPort.cpp" />
+    <ClCompile Include="include\VisionModule\VisionModule.cpp" />
+    <ClCompile Include="include\WNDDISPHALCON\WNDDISPHALCON.cpp" />
+    <ClCompile Include="PMInspect.cpp" />
+    <ClCompile Include="PMInspectDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PMInspect.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PMInspect.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\NotSelected.bmp" />
+    <Image Include="res\PMInspect.ico" />
+    <Image Include="res\Selected.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="PMInspect.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

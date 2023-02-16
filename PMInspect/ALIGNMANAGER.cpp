@@ -1,0 +1,12 @@
+#include "stdafx.h"
+#include "ALIGNMANAGER.h"
+
+
+ALIGNMANAGER::ALIGNMANAGER()
+{
+}
+
+
+ALIGNMANAGER::~ALIGNMANAGER()
+{
+}

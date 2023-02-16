@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{afd3c00d-3aad-4bbd-af77-473646c7eaaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\3DBtn">
+      <UniqueIdentifier>{ee2f5303-6d97-4083-8013-e2a01496db9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\SerialComm">
+      <UniqueIdentifier>{50bcadb1-2cee-4cf4-860c-38b9be888685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\VisionModule">
+      <UniqueIdentifier>{a5afc594-cdf7-42e7-a295-4c0a0a35ad8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MILCtrl">
+      <UniqueIdentifier>{6576925d-8327-4a7d-b399-432a98980caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Motion">
+      <UniqueIdentifier>{8e411cc7-4279-4177-b9a7-26f288fe02bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\PARAMANAGER">
+      <UniqueIdentifier>{e59f3744-d32b-46af-9fde-ad69f323fb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\PYLONCTRL">
+      <UniqueIdentifier>{11d71db6-aff1-42e7-80d7-cc599709ced2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\IMGALIGN">
+      <UniqueIdentifier>{94ff9727-b773-4171-a949-ef4d92b07733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\PRSPTNFINDER">
+      <UniqueIdentifier>{beefe8a5-4946-4370-8ee4-1a42e8901081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Define">
+      <UniqueIdentifier>{080e4a32-c053-4116-bdd9-c292c051340e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MsgBox">
+      <UniqueIdentifier>{134e2e04-9cae-4c2c-ad4f-1c9472380570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Trigger">
+      <UniqueIdentifier>{9cdb27f8-91f2-4b83-a273-e5002dbef87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ATFCTRL">
+      <UniqueIdentifier>{34584240-ad7b-462f-b93b-6a14729cf876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\WNDDISPHALCON">
+      <UniqueIdentifier>{2372365d-8cbc-4574-ad3d-3691807595be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="ToDo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PMInspect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PMInspectDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\_FuncModuleBasic.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\_FuncModuleBasic_.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\_FuncModuleHal.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3DBtn\btnenhctrl.h">
+      <Filter>Include\3DBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3DBtn\_Font.h">
+      <Filter>Include\3DBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SerialComm\SerialPort.h">
+      <Filter>Include\SerialComm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Define\define.h">
+      <Filter>Include\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VisionModule\VisionModule.h">
+      <Filter>Include\VisionModule</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDispAlign.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MILCtrl\MILCTRL.h">
+      <Filter>Include\MILCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDispMain.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogModel.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTeach.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogMotion.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PARAMANAGER\PARAMANAGER.h">
+      <Filter>Include\PARAMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PYLONCTRL\PYLONCTRL.h">
+      <Filter>Include\PYLONCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IMGALIGN\IMGALIGN.h">
+      <Filter>Include\IMGALIGN</Filter>
+    </ClInclude>
+    <ClInclude Include="include\_CtrlImageRect.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PRSPTNFINDER\PRSPTNFINDER.h">
+      <Filter>Include\PRSPTNFINDER</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Motion\Motion.h">
+      <Filter>Include\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Motion\Axis.h">
+      <Filter>Include\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogNumber_Box.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogAlarm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogAxisManage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogMessageBox.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MsgBox\MsgBox.h">
+      <Filter>Include\MsgBox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Trigger\AddrDefinition.h">
+      <Filter>Include\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\atf_def.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\atf_lib.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\atf_lib_exp.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\atf_ooa.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\AtfCtrl.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\common_AF.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\epp.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\llc.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\logger.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\tserial.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\ui_cmd.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATFCTRL\Log Subsystem\Include\LogSubsystemInterface.h">
+      <Filter>ATFCTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTeachAlign.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogResultView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WNDDISPHALCON\WNDDISPHALCON.h">
+      <Filter>Include\WNDDISPHALCON</Filter>
+    </ClInclude>
+    <ClInclude Include="ALIGNMANAGER.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgResultList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PMInspect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PMInspectDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="include\3DBtn\btnenhctrl.cpp">
+      <Filter>Include\3DBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SerialComm\SerialPort.cpp">
+      <Filter>Include\SerialComm</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Define\define.cpp">
+      <Filter>Include\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="include\VisionModule\VisionModule.cpp">
+      <Filter>Include\VisionModule</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDispAlign.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="include\MILCtrl\MILCTRL.cpp">
+      <Filter>Include\MILCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDispMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogModel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSystem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTeach.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMotion.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="include\PARAMANAGER\PARAMANAGER.cpp">
+      <Filter>Include\PARAMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="include\PYLONCTRL\PYLONCTRL.cpp">
+      <Filter>Include\PYLONCTRL</Filter>
+    </ClCompile>
+    <ClCompile Include="include\IMGALIGN\IMGALIGN.cpp">
+      <Filter>Include\IMGALIGN</Filter>
+    </ClCompile>
+    <ClCompile Include="include\PRSPTNFINDER\PRSPTNFINDER.cpp">
+      <Filter>Include\PRSPTNFINDER</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Motion\Motion.cpp">
+      <Filter>Include\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Motion\Axis.cpp">
+      <Filter>Include\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogNumber_Box.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogAlarm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogAxisManage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMessageBox.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="include\MsgBox\MsgBox.cpp">
+      <Filter>Include\MsgBox</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ATFCTRL\atf_ooa.cpp">
+      <Filter>ATFCTRL</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ATFCTRL\AtfCtrl.cpp">
+      <Filter>ATFCTRL</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ATFCTRL\epp.cpp">
+      <Filter>ATFCTRL</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ATFCTRL\llc.cpp">
+      <Filter>ATFCTRL</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ATFCTRL\logger.cpp">
+      <Filter>ATFCTRL</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ATFCTRL\tserial.cpp">
+      <Filter>ATFCTRL</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ATFCTRL\ui_cmd.cpp">
+      <Filter>ATFCTRL</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTeachAlign.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogResultView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="include\WNDDISPHALCON\WNDDISPHALCON.cpp">
+      <Filter>Include\WNDDISPHALCON</Filter>
+    </ClCompile>
+    <ClCompile Include="ALIGNMANAGER.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgResultList.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PMInspect.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PMInspect.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PMInspect.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Selected.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\NotSelected.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

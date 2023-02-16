@@ -1,0 +1,61 @@
+﻿  stdafx.cpp
+c:\program files\matrox imaging\mil\include\milproto.h(5545): warning C4312: '형식 캐스팅': 'int'에서 더 큰 'const void *'(으)로의 변환입니다.
+c:\program files\matrox imaging\mil\include\milproto.h(5567): warning C4312: '형식 캐스팅': 'int'에서 더 큰 'const void *'(으)로의 변환입니다.
+  WNDDISPHALCON.cpp
+  VisionModule.cpp
+d:\project\skd\pminspect\pminspect\include\visionmodule\visionmodule.cpp(3524): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\project\skd\pminspect\pminspect\include\visionmodule\visionmodule.cpp(3678): warning C4311: '형식 캐스팅': 'HANDLE'에서 'LONG'(으)로 포인터가 잘립니다.
+d:\project\skd\pminspect\pminspect\include\visionmodule\visionmodule.cpp(3678): warning C4302: '형식 캐스팅': 'HANDLE'에서 'LONG'(으)로 잘립니다.
+d:\project\skd\pminspect\pminspect\include\visionmodule\visionmodule.cpp(3938): warning C4311: '형식 캐스팅': 'HANDLE'에서 'LONG'(으)로 포인터가 잘립니다.
+d:\project\skd\pminspect\pminspect\include\visionmodule\visionmodule.cpp(3938): warning C4302: '형식 캐스팅': 'HANDLE'에서 'LONG'(으)로 잘립니다.
+  SerialPort.cpp
+  PYLONCTRL.cpp
+  PRSPTNFINDER.cpp
+  PARAMANAGER.cpp
+  MsgBox.cpp
+  Motion.cpp
+  Axis.cpp
+  MILCTRL.cpp
+  IMGALIGN.cpp
+  define.cpp
+d:\project\skd\pminspect\pminspect\include\define\define.cpp(175): warning C4101: 'strToFile' :참조되지 않은 지역 변수입니다.
+  ui_cmd.cpp
+  tserial.cpp
+  logger.cpp
+  llc.cpp
+d:\project\skd\pminspect\pminspect\include\atfctrl\llc.cpp(505): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\project\skd\pminspect\pminspect\include\atfctrl\llc.cpp(600): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  epp.cpp
+d:\project\skd\pminspect\pminspect\include\atfctrl\epp.cpp(1190): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\project\skd\pminspect\pminspect\include\atfctrl\epp.cpp(1205): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  atf_ooa.cpp
+  AtfCtrl.cpp
+  btnenhctrl.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  PMInspectDlg.cpp
+d:\project\skd\pminspect\pminspect\pminspectdlg.cpp(857): warning C4101: 'prc_idx' :참조되지 않은 지역 변수입니다.
+d:\project\skd\pminspect\pminspect\pminspectdlg.cpp(856): warning C4101: 'rslt' :참조되지 않은 지역 변수입니다.
+d:\project\skd\pminspect\pminspect\pminspectdlg.cpp(857): warning C4101: 'seq_idx' :참조되지 않은 지역 변수입니다.
+d:\project\skd\pminspect\pminspect\pminspectdlg.cpp(857): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+d:\project\skd\pminspect\pminspect\pminspectdlg.cpp(857): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  PMInspect.cpp
+  DlgResultList.cpp
+  DialogTeachAlign.cpp
+  DialogTeach.cpp
+  DialogSystem.cpp
+  DialogResultView.cpp
+  DialogNumber_Box.cpp
+  DialogMotion.cpp
+  DialogModel.cpp
+  DialogMessageBox.cpp
+  DialogDispMain.cpp
+  DialogDispAlign.cpp
+  DialogAxisManage.cpp
+  DialogAlarm.cpp
+  ALIGNMANAGER.cpp
+  코드를 생성하고 있습니다...
+     D:\Project\SKD\PMInspect\x64\Debug\PMInspect.lib 라이브러리 및 D:\Project\SKD\PMInspect\x64\Debug\PMInspect.exp 개체를 생성하고 있습니다.
+LINK : warning LNK4098: 'LIBCMTD' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+  PMInspect.vcxproj -> D:\Project\SKD\PMInspect\x64\Debug\PMInspect.exe
+  PMInspect.vcxproj -> D:\Project\SKD\PMInspect\x64\Debug\PMInspect.pdb (Partial PDB)
